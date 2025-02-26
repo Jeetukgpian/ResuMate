@@ -1,10 +1,68 @@
-![React AI Resume Builder](https://github.com/rrs301/AI-Resume-Builder/assets/20216436/0a78231c-754e-4f2e-94b0-ae9474cbf613)
+# ResuMate - AI Resume Builder
 
-# React + Vite
+## Overview
+ResuMate is an AI-powered resume-building platform designed to help users create professional, high-quality resumes with ease. Leveraging artificial intelligence, ResuMate generates tailored resumes based on user input, optimizing content for different industries and job roles.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **AI-Powered Resume Generation**: Automatically generates resumes based on user-provided details.
+- **Customizable Templates**: Choose from a variety of professionally designed templates.
+- **Keyword Optimization**: Ensures resumes are ATS (Applicant Tracking System) friendly.
+- **Real-Time Editing**: Edit and format your resume seamlessly within the platform.
+- **PDF Export & Sharing**: Download and share your resume in multiple formats.
+- **Smart Suggestions**: AI-driven recommendations for enhancing resume content.
+- **Secure & Private**: User data is securely stored and protected.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend**: React/React Native
+- **Backend**: FastAPI/Node.js (Express.js)
+- **Database**: MongoDB/PostgreSQL
+- **AI/ML**: Gemini API/NLP techniques for resume content generation
+- **Deployment**: Vercel (Frontend), Render/Heroku (Backend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run Locally
+### Prerequisites
+- Node.js & npm/yarn installed
+
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/jeetukgpian/resumate.git
+   cd resumate
+   ```
+
+2. Install frontend dependencies:
+   ```sh
+   cd frontend
+   npm install  # or yarn install
+   ```
+
+3. Install backend dependencies:
+   ```sh
+   cd backend
+   pip install -r requirements.txt
+   ```
+
+4. Run the frontend:
+   ```sh
+   npm start  # or yarn start
+   ```
+
+5. Run the backend:
+   ```sh
+   uvicorn main:app --reload
+   ```
+
+## Deployment
+- **Frontend**: Hosted on Vercel
+- **Backend**: Hosted on Strapi
+- **Database**: Cloud-based MongoDB/PostgreSQL
+-**Authentication**: Clerk Management System
+
+## Contribution Guidelines
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Added new feature"`
+4. Push the branch: `git push origin feature-name`
+5. Open a pull request
+
+
